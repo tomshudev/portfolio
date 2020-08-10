@@ -1,0 +1,23 @@
+.header {
+  margin-left: 10rem;
+  height: 100vh;
+  // -webkit-clip-path: ellipse(56% 50% at 43% 41%);
+  // clip-path: ellipse(109% 50% at 50% 43%);
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  &__left {
+    padding: 0 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+}

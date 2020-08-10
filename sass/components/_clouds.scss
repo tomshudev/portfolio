@@ -1,0 +1,82 @@
+.clouds {
+  margin-left: 15rem;
+
+  &__cloud {
+    position: absolute;
+    opacity: 0;
+  }
+
+  &__moon {
+    right: 10rem !important;
+    top: 5rem !important;
+    left: unset !important;
+    width: 54rem;
+    height: 54rem;
+    z-index: 5;
+
+    // animation: moonUp 1.5s ease-out;
+  }
+
+  &__1 {
+    z-index: 6;
+    left: unset !important;
+    right: 27rem !important;
+    bottom: -7rem !important;
+    top: unset !important;
+    width: 50rem;
+    height: 30rem;
+
+    // animation: cloudRight 1s ease-out;
+  }
+
+  &__2 {
+    top: 11rem !important;
+    left: unset !important;
+    right: 6rem !important;
+    z-index: 1;
+
+    // animation: cloudLeft 1s ease-out;
+  }
+
+  &__3 {
+    z-index: 7;
+    left: unset !important;
+    right: 2rem !important;
+    bottom: 9rem !important;
+    top: unset !important;
+    width: 33rem;
+    height: 22rem;
+
+    // animation: cloudRight 1s ease-out;
+  }
+
+  &__4 {
+    z-index: 2;
+    left: unset !important;
+    right: 37rem !important;
+    top: 17rem !important;
+
+    // animation: cloudLeft 1s ease-out;
+  }
+
+  &__5 {
+    z-index: 3;
+    left: unset !important;
+    right: 9rem !important;
+    bottom: 3rem !important;
+    top: unset !important;
+
+    // animation: cloudLeft 1s ease-out;
+  }
+
+  &__6 {
+    z-index: 8;
+    left: unset !important;
+    top: -3rem !important;
+    right: 27rem !important;
+    width: 40rem;
+    height: 35rem;
+
+    // animation: cloudRight 1s ease-out;
+  }
+}
